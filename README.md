@@ -1,0 +1,4 @@
+alib
+====
+
+My android library
