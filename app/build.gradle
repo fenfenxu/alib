@@ -1,0 +1,11 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "17.0"
+}
+
+dependencies {
+    compile project(':library')
+}
+
