@@ -1,0 +1,19 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }   
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.4.2'
+    }   
+}
+
+allprojects {
+    version = '1.0'
+
+    repositories {
+        mavenCentral()
+    }   
+}
+
+apply plugin: 'idea'
+
